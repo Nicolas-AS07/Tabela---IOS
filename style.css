@@ -1,0 +1,19 @@
+/* table {
+    border: 1px black solid;
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+    
+th,td {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+th{
+    background-color: rgb(251, 247, 255);
+}
+
+th:hover {
+    background-color: rgb(102, 102, 107);
+} */

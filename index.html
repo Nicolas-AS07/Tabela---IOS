@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabelas</title>
+    <style>
+        table {
+    border: 1px black solid;
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    
+}
+    
+th,td {
+    border: 1px black solid;
+    padding: 5px;
+    
+}
+
+
+th{
+    background-color: rgb(251, 247, 255);
+}
+
+.center{
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+
+    <table>
+
+        <caption>Preços de produtos eletrônicos</caption>
+
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>R$ 3.500,00 </td>
+                
+                <tr>
+                    <td>Smartphone</td>
+                    <td>R$ 1.200,00</td>
+                </tr>
+
+                <tr>
+                    <td>Relógio digital</td>
+                    <td>R$ 5.200,00</td>
+                </tr>
+
+                <tr>
+                    <td>Teclado</td>
+                    <td>R$ 800,00</td>
+                </tr>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$ 100.700,00</td>
+
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <table class="center">
+        <caption>Horário de aulas</caption>
+
+        <thead>
+
+            <td colspan="5">Horário de aulas - Turma 2024</td>
+            <tr>
+                
+                <th>Horário</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+               
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td>Matematica</td>
+                <td>História</td>
+                <td rowspan="2">Ed Fisica</td>
+                <td>Quimica</td>
+                
+                
+                
+            
+                <tr >
+                    <td>09:00 - 10:00</td>
+                    <td colspan="2">Português</td>
+                    <td>Biologia</td>
+                    
+                    
+                    
+                   
+                    
+
+                <tr>
+                    <td>10:00 - 11:00</td>
+                    <td>Geografia</td>
+                    <td>Fisica</td>
+                    <td>matematica</td>
+                    <td>História</td>
+                    
+
+                    
+                    
+                
+
+                <tr>
+                    <td>11:00 - 12:00</td>
+                    <td colspan="4">Projeto interdisciplinar</td>
+                </tr>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
